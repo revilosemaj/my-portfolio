@@ -1,0 +1,60 @@
+.section {
+    .cf:before, .cf:after {
+        content: " ";
+        display: table;
+    }
+
+    .cf:after {
+        clear: both;
+    }
+
+    .cf {
+        *zoom: 1;
+    }
+
+    .fl {
+        float: left;
+        _display: inline;
+    }
+
+    .w-100 {
+        width: 100%;
+    }
+
+    .bg-black-30 {
+        background-color: rgba(0, 0, 0, .3);
+    }
+
+    .bg-black-20 {
+        background-color: rgba(0, 0, 0, .2);
+    }
+
+    .bg-black-10 {
+        background-color: rgba(0, 0, 0, .1);
+    }
+
+    .bg-black-05 {
+        background-color: rgba(0, 0, 0, .05);
+    }
+
+    .pv4 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .tc {
+        text-align: center;
+    }
+
+    @media screen and (min-width: 30em) and (max-width: 60em) {
+        .w-50-m {
+            width: 50%;
+        }
+    }
+
+    @media screen and (min-width: 60em) {
+        .w-25-l {
+            width: 25%;
+        }
+    }
+}
