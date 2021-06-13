@@ -1,19 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
 .header {
-    position: fixed;
     width: 100%;
     background-color: #fefefe;
+    transition: 0.5s;
 }
 
 .header li {
   padding: 2px 12px;
   border-radius: 20px;
-  transition: 0.3s; 
-}
-
-.header li:hover {
-  color : #333;
-  box-shadow: 2px 2px 3px var(--secondary);
 }
 
 .grid{
@@ -71,17 +66,20 @@
   }
 /* desktop styles */
   @media screen and (min-width: 1200px){
-  
+    
     body{
       font-size: 20px;
+    }
+    .header {
+      position: fixed;
     }
     .site-nav{
       padding: 0;
     }
   }
 
-.is-current {
+/* .is-current {
   color : #333;
   border-radius: 20px;
   box-shadow: 2px 2px 3px var(--secondary);
-}
+} */

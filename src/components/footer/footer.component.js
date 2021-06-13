@@ -5,7 +5,7 @@ function Footer() {
     return (
         <footer>
             <div className="grid">
-                <p className="copyright">Copyright 2020 Cosmo Junkie</p>
+                <p className="copyright">Copyright 2020 Alfie's Border</p>
                 <ul className="social">
                 <li>
                     <a href="/">

@@ -1,0 +1,77 @@
+#skills{
+    height: 100vh;
+    padding: 20px 0;
+}
+#skills h3{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: .6px;
+}
+#skills h4 {
+  color: #fefefe;
+}
+#skills ul{
+    margin: 40px 0;
+}
+#skills li{
+    padding: 10px;
+    background: #333;
+    grid-column: span 4;
+    text-align: center;
+}
+#skills img{
+    height: 50px;
+    margin: 10px auto;
+}
+#skills p{
+    text-align: center;
+    margin: 0 20px;
+}
+
+/* small tablet styles */
+@media screen and (min-width: 620px){
+    #skills{
+      padding: 30px 100px;
+    }
+  
+  }
+  
+  /* large tablet & laptop styles */
+  @media screen and (min-width: 960px){
+  
+    body{
+      font-size: 18px;
+    }
+    .grid{
+      max-width: 1060px;
+      margin: 0 auto;
+      width: 100%;
+    }
+    #skills{
+      padding: 30px 20px;
+    }
+    #skills ul{
+      margin: 40px auto;
+    }
+    #skills li{
+      grid-column: span 2;
+    }
+    #skills p{
+      max-width: 600px;
+      margin: 40px auto;
+    }
+  
+  }
+  
+  /* desktop styles */
+  @media screen and (min-width: 1200px){
+  
+    body{
+      font-size: 20px;
+    }
+
+    #welcome, #projects, #skills, #contact{
+        padding: 90px 0;
+      }
+  
+  }
